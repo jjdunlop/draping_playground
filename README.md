@@ -17,3 +17,9 @@ git clone https://github.com/jjdunlop/draping_playground.git
 cd draping_playground
 bash setup.sh
 ```
+3. We have used Jupyter Lab for this project run the following to get this setup
+```bash
+pip install jupyterlab
+jupyter lab
+```
+You can then navigate to the webpage that is provided in terminal
