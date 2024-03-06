@@ -14,5 +14,6 @@ conda activate diffsim
 2. Download and build the project.
 ```bash
 git clone https://github.com/jjdunlop/draping_playground.git
+cd draping_playground
 bash setup.sh
 ```
