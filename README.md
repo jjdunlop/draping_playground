@@ -11,3 +11,8 @@ bash Anaconda3-2024.02-1-Linux-x86_64.sh
 conda create -n diffsim python=3.6 -y
 conda activate diffsim
 ```
+2. Download and build the project.
+```bash
+git clone https://github.com/jjdunlop/draping_playground.git
+bash setup.sh
+```
