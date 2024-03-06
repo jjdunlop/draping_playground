@@ -17,6 +17,8 @@ git clone https://github.com/jjdunlop/draping_playground.git
 cd draping_playground
 bash setup.sh
 ```
+I would suggest restarting your runtime at this stage.
+
 3. We have used Jupyter Lab for this project. Run the following to get this setup if desired.
 ```bash
 pip install jupyterlab
