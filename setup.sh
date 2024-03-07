@@ -38,14 +38,10 @@ sudo apt-get install -y --no-install-recommends \
     freeglut3-dev
 
 # Install Python packages
-pip install -r requirements.txt
+pip install -r diffsim/requirements.txt
 
 # Make the arcsim configure script executable
 chmod +x diffsim/arcsim/dependencies/taucs/configure
 chmod +x diffsim/change_gcc.sh
 
-
-cd diffsim
-bash installDependencies.sh
-bash script_build.sh
-cd ..
+bash diffsim/script_build.sh
